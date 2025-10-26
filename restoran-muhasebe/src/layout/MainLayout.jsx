@@ -10,7 +10,7 @@ const MainLayout = ({ children, setPage, page }) => {
         <Sidebar setPage={setPage} page={page} />
 
         {/* Main content */}
-        <main className="flex-1 p-6 overflow-auto">{children}</main>
+        <main className="flex-1 py-6 overflow-auto md:ml-6 px-2">{children}</main>
       </div>
     </div>
   );

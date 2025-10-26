@@ -12,37 +12,61 @@ export const sidebarElements = [
         name: "Ana Sayfa",
         icon: FaHome,
         index: 0,
-        href:"Dashboard"
+        href: "Dashboard"
     },
     {
         name: "Gider Tablosu",
         icon: FaChartPie,
         index: 1,
-        href:"GiderTablosu"
+        href: "GiderTablosu"
     },
     {
         name: "Yeni Gider",
         icon: FaPlusCircle,
         index: 2,
-        href:"GiderEkle"
+        href: "GiderEkle"
     },
     {
         name: "Personel Giderleri",
         icon: FaUsers,
         index: 3,
-        href:"PersonelGiderleri",
+        href: "PersonelGiderleri",
     },
     {
         name: "Analiz",
         icon: FaChartLine,
         index: 4,
-        href:"Analiz",
+        href: "Analiz",
     },
     {
         name: "Ayarlar",
         icon: FaCog,
         index: 5,
-        href:"Ayarlar",
+        href: "Ayarlar",
     }
 ]
+
+export const monthlyExpenses = [
+    { day: "Oca", Gider: 4500 },
+    { day: "Şub", Gider: 800 },
+    { day: "Mar", Gider: 1200 },
+    { day: "Nis", Gider: 300 },
+    { day: "May", Gider: 950 },
+    { day: "Haz", Gider: 400 },
+    { day: "Tem", Gider: 1500 },
+    { day: "Ağu", Gider: 1200 },
+    { day: "Eyl", Gider: 3000 },
+    { day: "Eki", Gider: 950 },
+    { day: "Kas", Gider: 400 },
+    { day: "Ara", Gider: 1500 },
+];
+
+export const expenseCategories = [
+  { name: "Personel", value: 30000 },
+  { name: "Gıda", value: 15000 },
+  { name: "Kira", value: 12000 },
+  { name: "Fatura", value: 5000 },
+  { name: "Diğer", value: 3000 },
+];
+
 

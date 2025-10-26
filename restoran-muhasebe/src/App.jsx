@@ -8,6 +8,7 @@ import GiderEkle from "./pages/GiderEkle";
 import Analiz from "./pages/Analiz";
 import Ayarlar from "./pages/Ayarlar";
 import MainLayout from "./layout/MainLayout";
+import PersonelGiderleri from "./pages/PersonelGiderleri";
 
 function App() {
   const [page, setPage] = useState("Dashboard");
@@ -23,6 +24,10 @@ function App() {
         break;
       case "GiderEkle":
         return <GiderEkle />;
+
+        break;
+      case "PersonelGiderleri":
+        return <PersonelGiderleri />;
 
         break;
       case "Analiz":
