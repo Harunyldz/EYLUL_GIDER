@@ -49,14 +49,6 @@ function App() {
     <MainLayout setPage={setPage} page={page}>
       {selectedPage()}
     </MainLayout>
-    // <div className="min-h-screen flex flex-col bg-gray-100">
-    //   <Navbar />
-
-    //   <div className="flex flex-col md:flex-row bg-gray-100 rounded-lg overflow-hidden shadow-md">
-    //    <Sidebar page={page} setPage={setPage} />
-    //     <main className="flex-1 p-6 text-left">{selectedPage()}</main>
-    //   </div>
-    // </div>
   );
 }
 

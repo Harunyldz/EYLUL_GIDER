@@ -70,3 +70,12 @@ export const expenseCategories = [
 ];
 
 
+// utils.js
+
+export const lastExpenses = [
+  { date: "25.10.2025", type: "Malzeme", amount: 950 },
+  { date: "24.10.2025", type: "Elektrik", amount: 420 },
+  { date: "23.10.2025", type: "Personel", amount: 1200 },
+  { date: "22.10.2025", type: "Su", amount: 150 },
+  { date: "21.10.2025", type: "Temizlik", amount: 200 },
+];
