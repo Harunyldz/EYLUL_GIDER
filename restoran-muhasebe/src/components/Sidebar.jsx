@@ -28,8 +28,8 @@ const Sidebar = ({ page, setPage }) => {
         className={`fixed md:static top-12 left-0 h-screen bg-gray-800 text-white w-52 transform transition-transform duration-300 z-40 mt-1
           ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:shadow-md`}
       >
-        <div className="flex flex-col md:justify-between py-4 px-4 h-full mt-6 md:mt-4">
-          <nav className="flex flex-col gap-3">
+        <div className="flex flex-col md:justify-between py-4 px-4 h-full mt-6 md:mt-4 ">
+          <nav className="flex flex-col gap-2">
             {sidebarElements.map((sidebarElement, i) => (
               <a
                 key={i}

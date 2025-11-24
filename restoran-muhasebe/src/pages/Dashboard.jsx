@@ -5,7 +5,7 @@ import PieChart from "../components/Charts/DailyPieChart";
 import SonGiderler from "../components/SonGiderler";
 // import ExpensesTable from "../components/Tables/ExpensesTable";
 
-const Dashboard = () => {
+const Dashboard = ({setPage}) => {
   return (
     <div className="md:space-y-16 space-y-8 ">
       {/* 1. Özet Kartlar */}
@@ -48,7 +48,7 @@ const Dashboard = () => {
 
       {/* 3. Son Eklenen 5 Gider Tablosu */}
       <div className="mt-20">
-        <SonGiderler />
+        <SonGiderler setPage={setPage} />
       </div>
     </div>
   );

@@ -2,14 +2,14 @@ import { lastExpenses } from "../utils";
 
 lastExpenses
 
-const SonGiderler = () => {
+const SonGiderler = ({setPage}) => {
   return (
     <div className="bg-white shadow p-4 rounded-lg w-full mt-4">
       <div className="flex justify-between items-center mb-3">
         <h2 className="font-semibold text-[#2563eb] text-lg">
           Son 5 Gider
         </h2>
-        <button className="text-xs text-gray-500 underline hover:text-gray-800 cursor-pointer">
+        <button onClick={()=>setPage("GiderTablosu")} className="text-xs text-gray-500 underline hover:text-gray-800 cursor-pointer">
           Tümünü Gör
         </button>
       </div>

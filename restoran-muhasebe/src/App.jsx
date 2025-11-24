@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
 import Dashboard from "./pages/Dashboard";
 import GiderTablosu from "./pages/GiderTablosu";
 import GiderEkle from "./pages/GiderEkle";
@@ -15,7 +13,7 @@ function App() {
   const selectedPage = () => {
     switch (page) {
       case "Dashboard":
-        return <Dashboard />;
+        return <Dashboard setPage={setPage} />;
 
         break;
       case "GiderTablosu":
@@ -40,7 +38,7 @@ function App() {
         break;
 
       default:
-        return <Dashboard />;
+        return <Dashboard setPage={setPage} />;
         break;
     }
   };
